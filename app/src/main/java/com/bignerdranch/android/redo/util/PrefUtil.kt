@@ -8,7 +8,7 @@ class PrefUtil {
     companion object{
 
         fun getTimerLength(context: Context):Int{
-            return 2
+            return 1
         }
 
         private const val PREVIOUS_TIMER_LENGTH_SECONDS_ID = "com.bignerdranch.android.redo.previous_timer_length"
