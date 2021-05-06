@@ -1,14 +1,16 @@
 package com.bignerdranch.android.redo.util
 
 import android.content.Context
-import android.preference.PreferenceManager
+import androidx.preference.PreferenceManager
 import com.bignerdranch.android.redo.MainActivity
 
 class PrefUtil {
     companion object{
 
+        private const val TIMER_LENGTH_ID = "com.resocoder.timer.timer_length"
         fun getTimerLength(context: Context):Int{
-            return 1
+            val preferences = PreferenceManager.getDefaultSharedPreferences(context)
+            return preferences.getInt(TIMER_LENGTH_ID, 10)
         }
 
         private const val PREVIOUS_TIMER_LENGTH_SECONDS_ID = "com.bignerdranch.android.redo.previous_timer_length"
