@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.bignerdranch.android.redo.MainActivity">
 
+
+    <!-- Got all of the Layout -->
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,6 +24,7 @@
 
     <include layout="@layout/content_main" />
 
+    <!-- Got all of the buttons -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_stop"
         android:layout_width="wrap_content"
