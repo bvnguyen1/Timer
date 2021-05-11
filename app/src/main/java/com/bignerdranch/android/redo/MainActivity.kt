@@ -140,8 +140,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onTimerFinished(){
-        timerState = TimerState.Stopped
+        // Todo: Pop up a small fragment window to congratulate the user
 
+        timerState = TimerState.Stopped
         setNewTimerLength()
 
         progress_countdown.progress = 0

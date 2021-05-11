@@ -24,6 +24,15 @@
         android:id="@+id/fragment"
         android:name="com.bignerdranch.android.redo.SettingsActivityFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+        android:layout_height="150dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <!-- Make a linear layout that hold different planets-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
